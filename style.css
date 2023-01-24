@@ -1,0 +1,135 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+  margin: 0;
+}
+body{
+  display: flex;
+}
+.user-input{
+  height: 850px;
+  width: 400px;
+  background-color: #F7EFE5;
+  margin-left: 200px;
+  margin-top: 30px;
+  right: 90%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(103, 103, 97, 0.867);
+}
+.container{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.user-out{
+  height: 880px;
+  width: 800px;
+  background-color: rgb(216, 231, 245);
+  margin-left: 200px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(85, 85, 69, 0.908);
+}
+
+
+
+.input{
+  width: 22.5rem;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-bottom: -40px;
+}
+#address{
+  position: fixed;
+  overflow: hidden;
+  width: 360px;
+  height: 100px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 20px;
+  padding-top: 30px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  text-emphasis-position: initial;
+  position: absolute;
+  resize: none;
+
+}
+h1{
+  font-family: 'Anton', sans-serif;
+  margin-left: 30px;
+  padding-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+#cu{
+  margin-top: 110px;
+}
+#pu{
+  margin-top: -20px;
+}
+#input1{
+  margin-top: 2px;
+}
+
+#input2{
+  margin-top: 2px;
+}
+.userinput{
+  height: 600px;
+  width: 400px;
+  margin-top: 80px;
+}
+
+#kseb{
+  width: 200px;
+  height: 50px;
+  margin-top: -30px;
+  margin-left: 100px;
+  border: 5px solid rgb(232, 100, 100);
+  border-radius: 10px;
+}
+
+#btn{
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: aquamarine;
+  color: black;
+  font-family: sans-serif;
+  margin-left: 150px;
+  margin-top: 20px;
+
+}
+#btn:hover{
+  background-color: rgb(131, 216, 107);
+  border: 2px solid red;
+  cursor: pointer;
+}
+.out{
+  font-weight: 200;
+  color: red;
+  margin-top: -30px;
+}
+#title{
+  font-size: 50px;
+}
+
+hr{
+  margin-top: 10px;
+}
+
+/* new font styles */
+.newfont{
+  font-size: 2rem;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 300;
+}
